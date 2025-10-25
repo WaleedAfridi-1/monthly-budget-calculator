@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Monthly Budget Calculator</title>
+ 
+</head>
+
+<body>
+    <h1 id="Heading">Monthly Budget Calculator</h1>
+    <div class="container">
+
+        <form>
+            <!-- salary  -->
+            <h3>Salary</h3>
+            <input type="number" placeholder="Enter Your Salary." id="#salary">
+
+            <!-- other source of income  -->
+            <h3>Other Income</h3>
+            <input type="number" placeholder="Other Incomes, e.g:business ,profit, etc." id="#other-icomes">
+
+            <!-- Fixed Expenses -->
+            <h3>Fixed Expenses</h3>
+            <input type="number" placeholder="e.g: Rent, Bills etc." id="#other-icomes">
+
+            <!-- Other Expenses -->
+            <h3>Other Expenses</h3>
+            <input type="number" placeholder="e.g: Medical, Shoping etc." id="#other-icomes">
+
+            <!-- Butthons  -->
+            <div class="btn-cont">
+                <button id="add-to-list-btn">Add To List</button>
+                <button id="Calculation-btn">Calculate</button>
+            </div>
+
+        </form>
+
+
+        <div class="lists-cont">
+
+        </div>
+
+        <!-- result container  -->
+        <div id="result-cont"></div>
+
+
+    </div>
+
+
+    <!-- js  -->
+    <script src="./app.js"></script>
+</body>
+
+</html>
